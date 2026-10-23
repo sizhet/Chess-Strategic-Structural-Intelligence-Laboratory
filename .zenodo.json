@@ -1,0 +1,38 @@
+{
+"title": "Chess as a Strategic Structural Intelligence Laboratory: From Competitive UIRTU-Relay to Autonomous Strategy Evolution and Collective Learning",
+"upload_type": "publication",
+"publication_type": "workingpaper",
+"description": "Chess-SSIL is a research framework and experimental laboratory for investigating autonomous strategy generation, competitive structural strategy evolution, and collective structural learning. It connects game-state localization, per-node intelligence, UIRTU-Relay, independent evaluation, counter-evidence, and structural growth. The project introduces Strategy-Generability Partition (SGP), Residual-to-Generable Conversion (RGC), and Autonomous Strategy Coverage (ASC) as testable research constructs. Established results in bounded-game strategy learning are distinguished from hypotheses about autonomous structural evolution and open-world transfer. Version 1.0.0 provides six research articles, three interface specifications, research questions, testable hypotheses, a validation roadmap, and architectural figures; it does not claim to demonstrate general autonomous structural evolution or ASI.",
+"creators": [
+{
+"name": "Tan, Sizhe"
+},
+{
+"name": "GPT-Obot"
+}
+],
+"version": "1.0.0",
+"publication_date": "2026-10-23",
+"language": "eng",
+"license": "Apache-2.0",
+"keywords": [
+"Structural Intelligence",
+"Chess-SSIL",
+"Autonomous Strategy Generation",
+"Competitive Structural Strategy Evolution",
+"UIRTU-Relay",
+"Strategy-Generability Partition",
+"Residual-to-Generable Conversion",
+"Autonomous Strategy Coverage",
+"Collective Learning",
+"Counter-Evidence",
+"Research Relay"
+],
+"related_identifiers": [
+{
+"identifier": "https://github.com/sizhet/Chess-Strategic-Structural-Intelligence-Laboratory",
+"relation": "isSupplementTo",
+"scheme": "url"
+}
+]
+}
