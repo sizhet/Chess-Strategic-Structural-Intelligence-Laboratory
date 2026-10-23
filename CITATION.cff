@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: >-
+  If you use or discuss this research repository, please cite the version
+  archived with its DOI when available.
+title: >-
+  Chess as a Strategic Structural Intelligence Laboratory:
+  From Competitive UIRTU-Relay to Autonomous Strategy Evolution and Collective Learning
+type: software
+authors:
+  - family-names: Tan
+    given-names: Sizhe
+  - name: GPT-Obot
+repository-code: https://github.com/sizhet/Chess-Strategic-Structural-Intelligence-Laboratory
+url: https://github.com/sizhet/Chess-Strategic-Structural-Intelligence-Laboratory
+version: 1.0.0
+date-released: 2026-10-23
+abstract: >-
+  Chess-SSIL proposes a research laboratory for competitive structural strategy
+  generation and evolution, linking game-state localization, per-node intelligence,
+  competitive UIRTU-Relay, independent evaluation, residual intelligence,
+  strategy-generability partitioning, residual-to-generable conversion, and
+  collective learning. It distinguishes demonstrated strategy learning from
+  hypothesized autonomous structural evolution and open-world generalization.
+keywords:
+  - structural intelligence
+  - autonomous strategy generation
+  - chess
+  - competitive relay
+  - strategy-generability partition
+  - residual-to-generable conversion
+  - collective learning
+  - counter-evidence
+license: Apache-2.0
