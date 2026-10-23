@@ -16,6 +16,12 @@ The proposed progression is:
 
 The repository is a companion to the foundational SSICR research, not a replacement or duplication of that theory.
 
+---
+
+![Fig-001-Chess-SSIL-Grand-Map.png](figures/Fig-001-Chess-SSIL-Grand-Map.png)
+
+---
+
 ## Core research proposition
 
 A game supplies authoritative rules, states, legal actions, transitions, and outcome signals. A strategic agent must still **localize** the game state into meaningful perspectives, evaluate candidates, allocate search, and select actions. Competitive play then yields three distinguishable streams:
