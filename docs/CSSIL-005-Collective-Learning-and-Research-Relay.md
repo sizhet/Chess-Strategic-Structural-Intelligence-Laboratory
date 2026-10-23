@@ -12,6 +12,12 @@ A useful intelligence structure can exist without reaching the problem, agent, o
 
 **Keywords:** collective structural learning; research relay; chess; SSICR; UIRTU; structural interoperability; portable intelligence; counter-evidence; autonomous strategy evolution; reproducibility.
 
+---
+
+![Fig-005-Collective-Learning-and-Research-Relay.png](../figures/Fig-005-Collective-Learning-and-Research-Relay.png)
+
+---
+
 ## 1. The Problem: Intelligence Can Exist Yet Fail to Propagate
 
 Research communities often rediscover solutions, repeat failed experiments, or struggle to reuse apparently relevant results. The limiting factor may be a missing discovery, but it may also be an inability to identify applicability, translate representations, validate evidence, or integrate a component into a different system.

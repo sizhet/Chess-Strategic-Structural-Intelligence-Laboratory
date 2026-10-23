@@ -12,6 +12,12 @@ Chess and other deterministic, turn-based board games offer a bounded, reproduci
 
 **Keywords:** structural intelligence; SSICR; UIRTU; competitive relay; chess; localization; per-node intelligence; self-play; strategy generation; collective learning; structural evolution
 
+---
+
+![Fig-001-Chess-SSIL-Grand-Map.png](../figures/Fig-001-Chess-SSIL-Grand-Map.png)
+
+---
+
 ## 1. Motivation: From Abstract Strategy to an Executable Laboratory
 
 The foundational SSICR research program treats strategy generation and competitive selection as first-class intelligence capabilities above individual structural intelligence units and their relay compositions. Its concepts are promising, but a general-purpose implementation would require numerous choices about state representation, action legality, feedback, opponents, evaluation, and adaptation.

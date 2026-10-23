@@ -10,6 +10,12 @@
 
 A chessboard is an observable game state, not yet an operational strategic interpretation. This paper proposes a modular account of chess intelligence that separates state representation, structural localization, per-node intelligence, and strategy generation. It uses chess as a controlled laboratory for Strategic Structural Intelligence and Competitive UIRTU-Relay (SSICR), while treating the proposed architecture as a research hypothesis rather than an assertion about how existing chess engines are implemented. The central engineering question is whether explicit, portable, perspective-aware structures can improve interpretability, transfer, adaptive computation, or structural evolution relative to strong fixed-architecture baselines.
 
+---
+
+![Fig-002-Chess-Localization-and-Per-Node-Intelligence.png](../figures/Fig-002-Chess-Localization-and-Per-Node-Intelligence.png)
+
+---
+
 ## 1. Scope and Research Position
 
 This document focuses on the decision-making path *within* a turn. CSSIL-003 examines competition and self-play across turns; CSSIL-004 examines residual evidence and structural growth; CSSIL-005 examines collective research relay. The present proposal does not claim that an explicit structural localization layer is necessary for strong chess play. End-to-end systems and classical search engines are essential comparison points.

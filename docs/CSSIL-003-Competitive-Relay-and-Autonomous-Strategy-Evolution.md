@@ -11,6 +11,12 @@ Chess and other finite, rule-governed games offer a controlled laboratory for in
 
 **Keywords:** competitive UIRTU-Relay; SSICR; chess; self-play; strategy generation; structural evolution; counter-evidence; residual intelligence; collective learning
 
+---
+
+![Fig-003-Competitive-Strategy-Evolution-Loop.png](../figures/Fig-003-Competitive-Strategy-Evolution-Loop.png)
+
+---
+
 ## 1. Research Motivation and Scope
 
 The foundational **Strategic Structural Intelligence and Competitive UIRTU-Relay (SSICR)** framework studies how strategic decisions arise from interactions among structural intelligence units and competing agents. **Chess-SSIL** is a separate, lightweight experimental bridge: rather than re-deriving the general theory, it asks which SSICR claims can be operationalized, falsified, and improved in reproducible games.

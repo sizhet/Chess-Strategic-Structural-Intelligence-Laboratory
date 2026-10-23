@@ -14,6 +14,10 @@ A chess agent may make legal moves, perform deep search, and achieve high averag
 
 ---
 
+![Fig-004-Autonomous-Structural-Growth-Ladder.png](../figures/Fig-004-Autonomous-Structural-Growth-Ladder.png)
+
+---
+
 ## 1. Motivation: Strong Play Can Conceal Structural Blind Spots
 
 A capable chess engine may fail on a narrow family of positions even when its overall win rate is high. Examples include horizon effects, rare tactical motifs, misleading positional heuristics, resource-allocation failures, and distribution shifts in opponent behavior. A single loss does not establish a structural defect: randomness, finite search budgets, and opponent strength must be considered.
