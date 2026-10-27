@@ -305,7 +305,7 @@ A public result SHOULD say whether its contribution is a new discovery, a locali
 - **CSSIL-004:** residual intelligence and structural growth.
 - **CSSIL-005:** collective learning and research relay.
 - **SPEC-001:** authoritative state, localization, and UIRTU invocation contracts.
-- **SPEC-003 (planned):** structural candidate lifecycle, evidence, selection, and rollback.
+- **SPEC-003:** structural candidate lifecycle, evidence, selection, and rollback.
 
 ## 16. Closing principle
 

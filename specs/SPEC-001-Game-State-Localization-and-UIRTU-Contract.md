@@ -223,7 +223,7 @@ A passing conformance test establishes **interface compatibility only**, not pla
 
 At minimum, compare (A) a raw-state baseline, (B) a fixed localization + fixed decision unit, and (C) a replaceable multi-perspective localization + decision unit. Hold game rules, opponent pool, compute budgets, seeds where applicable, and evaluation schedule constant. Report win/draw/loss rates, confidence intervals, wall-clock cost, node evaluations, illegal-action rate, and residual handling frequency. Use ablations to attribute gains to localization rather than increased search or compute.
 
-Claims about autonomous **structural** evolution require separate versioned evidence of a structural change, independent validation, and comparison with parameter-only and compute-only baselines (see planned SPEC-003).
+Claims about autonomous **structural** evolution require separate versioned evidence of a structural change, independent validation, and comparison with parameter-only and compute-only baselines (see SPEC-003).
 
 ## 10. Collective Learning Contribution Package
 
@@ -255,8 +255,8 @@ A negative result with reproducible evidence is a valid research contribution. C
 - **CSSIL-003:** competitive relay and autonomous strategy evolution.
 - **CSSIL-004:** residual intelligence and structural growth.
 - **CSSIL-005:** collective learning and research relay.
-- **SPEC-002 (planned):** competitive evaluation, opponent protocols, and relay events.
-- **SPEC-003 (planned):** structural growth records, counter-evidence, and validation.
+- **SPEC-002:** competitive evaluation, opponent protocols, and relay events.
+- **SPEC-003:** structural growth records, counter-evidence, and validation.
 
 ## 13. Closing Principle
 
