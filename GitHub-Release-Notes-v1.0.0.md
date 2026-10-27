@@ -2,7 +2,7 @@
 
 **Repository:** Chess-Strategic-Structural-Intelligence-Laboratory  
 **Release tag:** `v1.0.0`  
-**Release date:** 2026-10-23  
+**Release date:** 2026-10-27  
 **Authors:** Sizhe Tan & GPT-Obot  
 **Repository:** https://github.com/sizhet/Chess-Strategic-Structural-Intelligence-Laboratory
 

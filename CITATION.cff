@@ -13,7 +13,7 @@ authors:
 repository-code: https://github.com/sizhet/Chess-Strategic-Structural-Intelligence-Laboratory
 url: https://github.com/sizhet/Chess-Strategic-Structural-Intelligence-Laboratory
 version: 1.0.0
-date-released: 2026-10-23
+date-released: 2026-10-27
 abstract: >-
   Chess-SSIL proposes a research laboratory for competitive structural strategy
   generation and evolution, linking game-state localization, per-node intelligence,

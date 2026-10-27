@@ -17,7 +17,7 @@ The format follows the principles of [Keep a Changelog](https://keepachangelog.c
 - Develop portable Research Relay Units for independent replication and collective learning.
 - Extend the figure set if a dedicated SGP/RGC architecture illustration is needed.
 
-## [1.0.0] — 2026-10-23
+## [1.0.0] — 2026-10-27
 
 ### Added — Core research papers
 
