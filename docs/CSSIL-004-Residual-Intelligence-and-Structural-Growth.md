@@ -263,7 +263,7 @@ The following works provide established context; the CSSIL residual-to-growth ar
 
 ## Citation
 
-**Sizhe Tan & GPT-Obot.** (2026). *CSSIL-004: Residual Intelligence and Structural Growth.* Chess as a Strategic Structural Intelligence Laboratory, v1.0.0. DOI: to be assigned upon archival release.
+**Sizhe Tan & GPT-Obot.** (2026). *CSSIL-004: Residual Intelligence and Structural Growth.* Chess as a Strategic Structural Intelligence Laboratory, v1.0.0. DOI: 10.5281/zenodo.23703707.
 
 **License:** See the repository's root license file.  
 **Repository status:** Conceptual framework and proposed experiments; no implementation or empirical results are asserted.
