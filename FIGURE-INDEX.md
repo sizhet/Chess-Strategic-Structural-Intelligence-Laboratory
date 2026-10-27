@@ -102,7 +102,7 @@ The sixth core paper extends the five-figure architecture without requiring a si
 From a document inside `docs/`:
 
 ```markdown
-![Fig-001 — Chess-SSIL Grand Map](../figures/Fig-001-Chess-SSIL-Grand-Map.png)
+![Fig-001 — Chess-SSIL Grand Map](figures/Fig-001-Chess-SSIL-Grand-Map.png)
 
 *Figure 1. Chess-SSIL as a bounded laboratory for competitive strategy generation and structural learning.*
 ```
