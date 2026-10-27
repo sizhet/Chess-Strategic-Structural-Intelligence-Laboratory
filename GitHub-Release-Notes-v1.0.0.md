@@ -45,7 +45,7 @@ The release also introduces **Strategy-Generability Partition (SGP)**: focus fir
 ### Navigation and Figures
 
 - [README](README.md), [Start Here](START-HERE.md), [Contents](CONTENTS.md), [Glossary](GLOSSARY.md), and [Figure Index](FIGURE-INDEX.md)
-- Five planned architecture figures: grand map; localization and per-node intelligence; competitive strategy evolution; structural growth ladder; collective learning and research relay. See [Figure Index](FIGURE-INDEX.md) for filenames and placement.
+- Five architecture figures: grand map; localization and per-node intelligence; competitive strategy evolution; structural growth ladder; collective learning and research relay. See [Figure Index](FIGURE-INDEX.md) for filenames and placement.
 
 ## Key Research Contributions
 
@@ -80,10 +80,6 @@ Begin with [START-HERE.md](START-HERE.md), then CSSIL-001 and CSSIL-002 for the 
 ## Citation and Archival Metadata
 
 Citation and archival metadata are supplied in [`CITATION.cff`](CITATION.cff) and [`.zenodo.json`](.zenodo.json). **A DOI has not been assigned in these release notes.** After Zenodo archives the tagged release, add the actual DOI to the repository and related publication records as appropriate.
-
-## Release Checklist
-
-Before publishing the GitHub release, verify that all six papers, three specifications, navigation files, and five separate PNG figure files are present; Markdown links resolve; the release tag is `v1.0.0`; author and license metadata are consistent; and the `.zenodo.json` filename retains its leading dot. Confirm that any planned-but-not-yet-added figure or implementation is clearly labeled rather than represented as released.
 
 ## Collaboration
 

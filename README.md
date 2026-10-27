@@ -112,7 +112,7 @@ Chess-Strategic-Structural-Intelligence-Laboratory/
 └── Chess-SSIL-v1.0.0-ResearchGate-Overview.pdf
 ```
 
-This tree is the **planned v1.0.0 layout**; some companion/navigation/release files may still be in preparation. See [CONTENTS.md](CONTENTS.md) once available for the final release inventory.
+This repository provides the v1.0.0 research framework, including six core papers, three provisional interface specifications, research and validation documents, figures, and publication metadata.
 
 ## Core papers
 
@@ -179,13 +179,13 @@ This record is illustrative; the three SPEC files define the proposed detailed c
 
 ![Chess-SSIL Grand Map](figures/Fig-001-Chess-SSIL-Grand-Map.png)
 
-The five planned figures cover the grand map, localization/per-node intelligence, competitive strategy evolution, autonomous structural growth, and collective research relay. Consult [FIGURE-INDEX.md](FIGURE-INDEX.md) when the figure package is finalized.
+The five figures cover the grand map, localization/per-node intelligence, competitive strategy evolution, autonomous structural growth, and collective research relay. Consult [FIGURE-INDEX.md](FIGURE-INDEX.md) when the figure package is finalized.
 
 ## Scope, citation, and reuse
 
 Chess-SSIL is a **research proposal and experimental guide**. It does not claim that its hypotheses have been empirically established. Contributions should preserve provenance, experimental limitations, and counter-evidence.
 
-For bibliographic metadata, use [`CITATION.cff`](CITATION.cff) after it is finalized. Add the **actual Zenodo DOI** only after a DOI has been assigned; do not substitute a placeholder DOI in public citations. Licensing terms should be specified in the released repository before reuse assumptions are made.
+For bibliographic metadata, use [`CITATION.cff`](CITATION.cff). Add the **actual Zenodo DOI** only after a DOI has been assigned; do not substitute a placeholder DOI in public citations.
 
 ## Closing perspective
 

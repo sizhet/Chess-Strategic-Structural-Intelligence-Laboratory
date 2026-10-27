@@ -28,8 +28,6 @@ The repository distinguishes established results in game-playing AI from **propo
 | [CSSIL-005 — Collective Learning and Research Relay](docs/CSSIL-005-Collective-Learning-and-Research-Relay.md) | Portable contributions, interoperability, independent replication, and shared evidence | Collaborators and contributors |
 | [CSSIL-006 — Strategy-Generability Partition and Residual-to-Generable Evolution](docs/CSSIL-006-Strategy-Generability%20Partition%20and%20Residual-to-Generable%20Evolution.md) | Generable versus residual problem domains, G1–G3 maturity, conversion mechanisms, and autonomy boundaries | Long-horizon researchers |
 
-**Filename note:** CSSIL-006 uses spaces in its planned filename; the link percent-encodes those spaces for Markdown navigation. Preserve the exact on-disk filename or update the link if it is renamed.
-
 ## Proposed Interface Specifications
 
 These are **provisional research contracts**, not certified interoperability standards or claims of implemented software.

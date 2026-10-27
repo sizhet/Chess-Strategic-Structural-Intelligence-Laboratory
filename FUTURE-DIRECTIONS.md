@@ -103,9 +103,9 @@ Record each conversion attempt, including unsuccessful ones. A task is promoted 
 
 Propose **Autonomous Strategy Coverage** as a task-distribution-dependent metric, not a universal scalar for intelligence:
 
-\[
+$$
 ASC(D, B, \tau) = \frac{\sum_{i \in D} w_i\,\mathbf{1}[\text{task } i \text{ meets autonomy and verification criteria under } B,\tau]}{\sum_{i \in D} w_i}
-\]
+$$
 
 Here, \(D\) is a declared task set, \(w_i\) its precommitted weights, \(B\) a resource budget, and \(\tau\) the verification threshold. Reports must disclose the task distribution and thresholds; otherwise coverage values are not meaningfully comparable.
 
@@ -192,7 +192,7 @@ These outcomes would constrain the framework, not invalidate the value of well-s
 For the next release cycle:
 
 1. Align the six core papers (CSSIL-001–006), three specifications, glossary, and research protocols on terminology and evidence levels.
-2. Publish the five planned figures as separate, correctly named PNG files and verify Markdown links.
+2. Publish the five figures as separate, correctly named PNG files and verify Markdown links.
 3. Add a minimal reference game contract and independent validation checklist before claiming an executable laboratory.
 4. Introduce SGP/RGC hypotheses and measures into the formal research roadmap, with explicit versioning.
 5. Invite small, reproducible external experiments and preserve their counter-evidence.

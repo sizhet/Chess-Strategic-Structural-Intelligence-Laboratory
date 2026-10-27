@@ -9,7 +9,7 @@
 
 ## Purpose
 
-This index documents the five planned architecture figures, their intended meanings, suggested locations in the research papers, and the distinctions each figure must preserve. Figures are conceptual research aids, not empirical results. All image references below assume that the corresponding standalone PNG files are present in [`figures/`](figures/).
+This index documents the five architecture figures, their intended meanings, suggested locations in the research papers, and the distinctions each figure must preserve. Figures are conceptual research aids, not empirical results. All image references below assume that the corresponding standalone PNG files are present in [`figures/`](figures/).
 
 ## Figure Catalog
 
