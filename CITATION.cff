@@ -5,7 +5,7 @@ message: >-
 title: >-
   Chess as a Strategic Structural Intelligence Laboratory:
   From Competitive UIRTU-Relay to Autonomous Strategy Evolution and Collective Learning
-type: software
+type: generic
 authors:
   - family-names: Tan
     given-names: Sizhe
