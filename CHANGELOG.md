@@ -73,7 +73,7 @@ The format follows the principles of [Keep a Changelog](https://keepachangelog.c
 
 - **Authors:** Sizhe Tan & GPT-Obot.
 - **Status:** Initial research-framework release; empirical results must be separately identified and independently verified.
-- **DOI:** To be assigned upon archival publication. Do not substitute a placeholder DOI in citation metadata.
+- **DOI: 10.5281/zenodo.23703707
 - Verify repository links, figure files, citation metadata, license declarations, and GitHub rendering before tagging `v1.0.0`.
 
 ---

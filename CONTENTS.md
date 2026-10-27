@@ -62,7 +62,7 @@ The figure paths above are the **intended repository assets**. Confirm that five
 - [ResearchGate Description](ResearchGate-Description.txt) — Short plain-text project introduction.
 - [ResearchGate Overview PDF](Chess-SSIL-v1.0.0-ResearchGate-Overview.pdf) — One-page research navigation poster.
 
-**DOI:** Add the registered DOI after the repository's archived release; do not substitute a placeholder DOI in citation metadata.
+**DOI: 10.5281/zenodo.23703707
 
 ## Recommended Reading Paths
 

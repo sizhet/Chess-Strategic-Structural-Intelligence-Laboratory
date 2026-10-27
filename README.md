@@ -192,3 +192,19 @@ For bibliographic metadata, use [`CITATION.cff`](CITATION.cff). Add the **actual
 > **Do not demand that autonomy solve everything first. Build a verified generable core, preserve the residual frontier, and expand through evidence-backed structural relay.**
 
 The goal is not merely to teach an AI to win games. It is to make strategy-generation mechanisms **observable, testable, improvable, and collectively reusable**—and to discover where the analogy to open-world intelligence succeeds or fails.
+
+---
+
+## Authors
+
+**Sizhe Tan & GPT-Obot**
+
+DOI: 10.5281/zenodo.23703707
+
+---
+
+## 📚 DBM-SI Series Navigation
+
+See:\
+[./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md](./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md)
+
