@@ -352,6 +352,6 @@ A structural growth claim is credible only when the change is identifiable, its 
 
 ---
 
-**Citation:** Sizhe Tan & GPT-Obot. *SPEC-003 — Structural Growth and Evidence Record*. Chess as a Strategic Structural Intelligence Laboratory, v1.0.0 (2026). DOI: pending release.
+**Citation:** Sizhe Tan & GPT-Obot. *SPEC-003 — Structural Growth and Evidence Record*. Chess as a Strategic Structural Intelligence Laboratory, v1.0.0 (2026). DOI: 10.5281/zenodo.23703707.
 
 **License:** Refer to the repository-level license and metadata.
