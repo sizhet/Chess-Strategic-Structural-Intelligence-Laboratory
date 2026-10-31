@@ -107,7 +107,7 @@ $$
 ASC(D, B, \tau) = \frac{\sum_{i \in D} w_i\,\mathbf{1}[\text{task } i \text{ meets autonomy and verification criteria under } B,\tau]}{\sum_{i \in D} w_i}
 $$
 
-Here, \(D\) is a declared task set, \(w_i\) its precommitted weights, \(B\) a resource budget, and \(\tau\) the verification threshold. Reports must disclose the task distribution and thresholds; otherwise coverage values are not meaningfully comparable.
+Here, $D$ is a declared task set, $w_i$ its precommitted weights, $B$ a resource budget, and $\tau$ the verification threshold. Reports must disclose the task distribution and thresholds; otherwise coverage values are not meaningfully comparable.
 
 Track ASC alongside success rates, human intervention, compute and data costs, calibration, regression frequency, transfer robustness, and residual conversion rates. A rising ASC score may reflect benchmark contamination or task reweighting; holdout governance and independent audits are essential.
 

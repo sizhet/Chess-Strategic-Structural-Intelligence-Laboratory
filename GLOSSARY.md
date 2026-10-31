@@ -141,13 +141,13 @@ The changing boundary between tasks that meet a declared autonomous-strategy sta
 ### Autonomous Strategy Coverage (ASC) — proposed
 A distribution- and threshold-dependent measure of the weighted fraction of tasks meeting specified autonomous strategy generation and validation criteria:
 
-\[
+$$
 \mathrm{ASC}(t;D,\tau)=
 \frac{\sum_{i=1}^{n}w_i\,\mathbf{1}[\mathrm{Pass}(T_i,t,\tau)]}
 {\sum_{i=1}^{n}w_i},
-\]
+$$
 
-where \(D\) is the evaluated task set or distribution, \(w_i\) are nonnegative task weights, and \(\tau\) contains the declared reliability, cost, autonomy, and safety thresholds. ASC values from different distributions or thresholds are not directly comparable.
+where $D$ is the evaluated task set or distribution, $w_i$ are nonnegative task weights, and $\tau$ contains the declared reliability, cost, autonomy, and safety thresholds. ASC values from different distributions or thresholds are not directly comparable.
 
 ### Conversion Yield — proposed
 The proportion of attempted RGC cases that satisfy predefined independent validation criteria. Reports should also state attempts, failures, exclusions, and cost.
