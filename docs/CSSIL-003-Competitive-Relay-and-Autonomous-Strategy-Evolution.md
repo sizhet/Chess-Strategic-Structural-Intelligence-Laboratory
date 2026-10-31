@@ -29,21 +29,21 @@ A game is attractive because its legal transitions and terminal outcomes are exp
 
 ## 2. Competitive Relay as an Operational Model
 
-Let a game be defined by \(G=(S,A,T,P,R,\Omega)\), where \(S\) is the state space, \(A(s)\) the legal actions in state \(s\), \(T(s,a)\) the transition function, \(P(s)\) the player to move, \(R\) the outcome or reward definition, and \(\Omega\) the terminal conditions.
+Let a game be defined by $G=(S,A,T,P,R,\Omega)$, where $S$ is the state space, $A(s)$ the legal actions in state $s$, $T(s,a)$ the transition function, $P(s)$ the player to move, $R$ the outcome or reward definition, and $\Omega$ the terminal conditions.
 
-At turn \(t\), player \(i=P(s_t)\) computes:
+At turn $t$, player $i=P(s_t)$ computes:
 
-\[
+$$
 z_t^i=L_i(s_t,h_t;\theta_L), \qquad
 c_t^i=\mathcal{G}_i(z_t^i,\mathcal{M}_i,B_t),
-\]
+$$
 
-\[
+$$
 a_t=\Pi_i(c_t^i,z_t^i;\theta_\Pi)\in A(s_t),\qquad
 s_{t+1}=T(s_t,a_t).
-\]
+$$
 
-Here \(L_i\) is localization, \(h_t\) the relevant history, \(\mathcal{M}_i\) the available intelligence modules, \(B_t\) the computation budget, \(\mathcal{G}_i\) the strategy generator, and \(\Pi_i\) the final selection policy. The notation specifies an experimental decomposition, **not** the internal architecture of AlphaGo or any other existing engine.
+Here $L_i$ is localization, $h_t$ the relevant history, $\mathcal{M}_i$ the available intelligence modules, $B_t$ the computation budget, $\mathcal{G}_i$ the strategy generator, and $\Pi_i$ the final selection policy. The notation specifies an experimental decomposition, **not** the internal architecture of AlphaGo or any other existing engine.
 
 A **UIRTU** in this proposal is a reusable, contract-bound intelligence unit. A move is an *execution instance* of one or more units, not necessarily a distinct UIRTU in its own right. A relay links these instances through state transitions, evidence, and control decisions. The opponent is not a passive data source: its actions actively change the decision landscape.
 
@@ -87,7 +87,7 @@ We propose **CSSE** as a candidate mechanism within Chess-SSIL, not as an establ
 
 1. **Observe:** collect board states, candidate evaluations, actions, and game outcomes.
 2. **Diagnose:** identify failures, residual states, disagreement among perspectives, or expensive search patterns.
-3. **Propose:** generate a typed structural delta \(\Delta_k\) to a localization operator, scoring module, dispatch rule, macro, or generator.
+3. **Propose:** generate a typed structural delta $\Delta_k$ to a localization operator, scoring module, dispatch rule, macro, or generator.
 4. **Sandbox:** validate legality, interface conformance, deterministic replay, and resource limits.
 5. **Compete:** evaluate the candidate against its parent and independent baselines under matched budgets.
 6. **Select:** accept, reject, quarantine, or roll back the delta using prespecified criteria.
@@ -95,14 +95,14 @@ We propose **CSSE** as a candidate mechanism within Chess-SSIL, not as an establ
 
 A simplified update is:
 
-\[
+$$
 M_{k+1}=\begin{cases}
-\operatorname{Apply}(M_k,\Delta_k), & \text{if } V(\Delta_k\mid M_k,D_k,B)\geq \tau \\
+\mathrm{Apply}(M_k,\Delta_k), & \text{if } V(\Delta_k\mid M_k,D_k,B)\geq \tau \\
 M_k, & \text{otherwise,}
 \end{cases}
-\]
+$$
 
-where \(M_k\) is the current structural configuration, \(D_k\) is a held-out evaluation suite, \(B\) is a matched resource budget, and \(V\) is a preregistered validation measure. A single noisy win-rate estimate should not be treated as sufficient evidence of improvement.
+where $M_k$ is the current structural configuration, $D_k$ is a held-out evaluation suite, $B$ is a matched resource budget, and $V$ is a preregistered validation measure. A single noisy win-rate estimate should not be treated as sufficient evidence of improvement.
 
 ### 4.1 Structural versus parametric updates
 
@@ -128,13 +128,13 @@ Recommended safeguards:
 - Audit whether gains survive ablations removing the new module.
 - Keep immutable game logs and evaluator versions; reserve a rollback path.
 
-For a two-player zero-sum game, the empirical score of a candidate \(C\) against a baseline \(B\) can be reported as
+For a two-player zero-sum game, the empirical score of a candidate $C$ against a baseline $B$ can be reported as
 
-\[
+$$
 \widehat{S}(C,B)=\frac{W+\tfrac12D}{N},
-\]
+$$
 
-where \(W\) is candidate wins, \(D\) draws, and \(N\) total games. This is a **match score**, not proof of a globally optimal strategy. Statistical uncertainty, opponent selection, and computational cost must accompany it.
+where $W$ is candidate wins, $D$ draws, and $N$ total games. This is a **match score**, not proof of a globally optimal strategy. Statistical uncertainty, opponent selection, and computational cost must accompany it.
 
 ## 6. Residual Intelligence and Counter-Evidence
 
@@ -156,11 +156,11 @@ Crucially, **not every residual warrants a new module**. Some arise from noise, 
 
 Improving the next move is first-order optimization. Improving a policy over moves is second-order. Improving the **process that assembles policies and allocates intelligence resources** is a higher-order target:
 
-\[
-\mathcal{G}_{k+1}=\operatorname{SelectValidated}\bigl(\mathcal{G}_k,\operatorname{ProposeDelta}(E_k)\bigr),
-\]
+$$
+\mathcal{G}_{k+1}=\mathrm{SelectValidated}\bigl(\mathcal{G}_k,\mathrm{ProposeDelta}(E_k)\bigr),
+$$
 
-where \(E_k\) contains competitive evidence and structural failure analyses.
+where $E_k$ contains competitive evidence and structural failure analyses.
 
 Candidate higher-order changes include selecting different perspective sets by phase of play, dynamically choosing between rule-based and search-based units, and learning when a residual merits expensive exploration. A credible demonstration must show that the *generator's persistent decision structure* changed, and that the change transfers beyond the exact positions used to create it.
 

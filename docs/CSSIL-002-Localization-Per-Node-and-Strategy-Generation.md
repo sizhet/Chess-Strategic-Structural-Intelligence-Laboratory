@@ -33,17 +33,17 @@ The four layers can be implemented separately, jointly, or as virtual interfaces
 
 Let a legal game state be
 
-\[
+$$
 s_t=(B_t,\tau_t,c_t,e_t,h_t),
-\]
+$$
 
-where \(B_t\) is piece placement, \(\tau_t\) the side to move, \(c_t\) castling rights, \(e_t\) en-passant availability, and \(h_t\) the history relevant to repetition and other rules. A board diagram alone may not identify the full legal state.
+where $B_t$ is piece placement, $\tau_t$ the side to move, $c_t$ castling rights, $e_t$ en-passant availability, and $h_t$ the history relevant to repetition and other rules. A board diagram alone may not identify the full legal state.
 
 A localization operator maps the state and an optional perspective to an actionable description:
 
-\[
+$$
 z_t^{(p)}=L_p(s_t,\mathcal H_t;\theta_p).
-\]
+$$
 
 Possible perspectives include king safety, tactical forcing lines, material balance, pawn structure, mobility, initiative, endgame conversion, and opponent-specific tendencies. Each perspective should expose its evidence, applicability conditions, uncertainty, and known blind spots rather than only an opaque scalar score.
 
@@ -100,7 +100,7 @@ This is a **fold/unfold hypothesis**: retain enough provenance to reopen a compr
 
 ### 3.2 Candidate action generation
 
-For a legal-action set \(A(s_t)\), a module may propose a subset \(C_p(s_t)\subseteq A(s_t)\), together with a rationale and confidence. A separate coverage mechanism can ensure that pruning does not silently eliminate critical defensive moves. The full legal set remains the ground truth for validity.
+For a legal-action set $A(s_t)$, a module may propose a subset $C_p(s_t)\subseteq A(s_t)$, together with a rationale and confidence. A separate coverage mechanism can ensure that pruning does not silently eliminate critical defensive moves. The full legal set remains the ground truth for validity.
 
 ## 4. Strategy Generation Above Per-Node Intelligence
 
@@ -108,15 +108,15 @@ A Strategy Generator is not merely an action-scoring function. It chooses which 
 
 A candidate formulation is:
 
-\[
+$$
 (\mathcal P_t,\mathcal M_t,b_t)=G(s_t,\mathcal H_t,\mathcal R_t,B_t),
-\]
+$$
 
-where \(\mathcal P_t\) selects perspectives, \(\mathcal M_t\) selects modules, \(b_t\) allocates a computation budget, \(\mathcal R_t\) contains residual and reliability signals, and \(B_t\) is the total budget. The action policy then selects
+where $\mathcal P_t$ selects perspectives, $\mathcal M_t$ selects modules, $b_t$ allocates a computation budget, $\mathcal R_t$ contains residual and reliability signals, and $B_t$ is the total budget. The action policy then selects
 
-\[
+$$
 a_t=\Pi\bigl(s_t,\{L_p\}_{p\in\mathcal P_t},\{M_j\}_{j\in\mathcal M_t},b_t\bigr),\qquad a_t\in A(s_t).
-\]
+$$
 
 This division allows **three distinct learning targets**:
 
@@ -146,11 +146,11 @@ A residual is a mismatch between the available structural explanations and the e
 
 A residual trigger might be defined as
 
-\[
+$$
 T_t=\mathbf 1\{D_t>\delta_D\;\lor\;U_t>\delta_U\;\lor\;C_t>\delta_C\},
-\]
+$$
 
-where \(D_t\) is predictive discrepancy, \(U_t\) uncertainty, and \(C_t\) evaluator conflict. Thresholds should be calibrated on held-out data. Triggering can dispatch deeper search, alternate localization, a specialized module, or a sandboxed candidate-structure experiment.
+where $D_t$ is predictive discrepancy, $U_t$ uncertainty, and $C_t$ evaluator conflict. Thresholds should be calibrated on held-out data. Triggering can dispatch deeper search, alternate localization, a specialized module, or a sandboxed candidate-structure experiment.
 
 Crucially, an unfamiliar position is not proof that a new structural component is needed. Strong baselines may resolve it through more search or better parameter training. The research task is to identify cases where a new portable structure adds measurable value.
 

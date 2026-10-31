@@ -32,7 +32,7 @@ The central proposal is:
 
 ## 2. The Canonical Mapping
 
-Let a two-player game be described by a state space \(S\), legal-action function \(A(s)\), transition function \(T(s,a)\), player-to-move function \(P(s)\), terminal predicate \(Z(s)\), and outcome or utility function \(U(s)\). The rules and these functions define the game environment; they do not, by themselves, constitute a learned strategy.
+Let a two-player game be described by a state space $S$, legal-action function $A(s)$, transition function $T(s,a)$, player-to-move function $P(s)$, terminal predicate $Z(s)$, and outcome or utility function $U(s)$. The rules and these functions define the game environment; they do not, by themselves, constitute a learned strategy.
 
 | Game concept | Proposed SSICR interpretation | Experimental question |
 | --- | --- | --- |
@@ -54,11 +54,11 @@ A legal board representation tells us where pieces stand. Structural localizatio
 
 Formally, a localization operator may produce:
 
-\[
+$$
  z_t = L(s_t, h_t, p_t),
-\]
+$$
 
-where \(s_t\) is the current state, \(h_t\) is relevant history, and \(p_t\) identifies the agent's selected perspective or set of perspectives. A system may maintain multiple representations \(z_t^{(1)}, \ldots, z_t^{(k)}\), each suited to a different evaluator or search procedure.
+where $s_t$ is the current state, $h_t$ is relevant history, and $p_t$ identifies the agent's selected perspective or set of perspectives. A system may maintain multiple representations $z_t^{(1)}, \ldots, z_t^{(k)}$, each suited to a different evaluator or search procedure.
 
 This separation enables tests that hold the move selector fixed while changing localization, or hold localization fixed while changing the evaluator. Novel or underrepresented positions may activate a **residual-handling path**, such as a deeper search, an alternate evaluator, or a request to generate and validate a new candidate module. A residual trigger is a research design proposal, not a property automatically supplied by existing engines.
 
@@ -66,12 +66,12 @@ This separation enables tests that hold the move selector fixed while changing l
 
 A novice may rely on simple heuristics; a stronger player or engine may combine pattern recognition, positional assessment, calculation, and learned value estimates. These approaches can be expressed through a modular decision process:
 
-\[
+$$
  a_t = \Pi\bigl(L(s_t,h_t,p_t),\; \mathcal{F}_t,\; \mathcal{M}_t,\; B_t\bigr),
  \qquad a_t \in A(s_t),
-\]
+$$
 
-where \(\mathcal{F}_t\) is a scoring-operator collection or forest, \(\mathcal{M}_t\) is a registry of available intelligence modules and precedents, \(B_t\) is a computation budget, and \(\Pi\) is the strategy selection or generation procedure.
+where $\mathcal{F}_t$ is a scoring-operator collection or forest, $\mathcal{M}_t$ is a registry of available intelligence modules and precedents, $B_t$ is a computation budget, and $\Pi$ is the strategy selection or generation procedure.
 
 This expression is an architectural abstraction, not a description of the internal code of AlphaGo or AlphaZero. In particular, AlphaGo-family systems combine learned evaluation or policy components with search and self-play; they are not simply exhaustive brute-force solvers. Chess and Go are not generally solved in the sense of a proven optimal strategy from every reachable position.
 
@@ -87,9 +87,9 @@ The third form is a central *open hypothesis* for Chess-SSIL.
 
 Every action changes the shared state and the opponent's future options. The game therefore generates an ordered trace:
 
-\[
+$$
  s_0 \xrightarrow{a_0} s_1 \xrightarrow{a_1} \cdots \xrightarrow{a_{n-1}} s_n.
-\]
+$$
 
 A competitive relay can support three logically distinct streams:
 
